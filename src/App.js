@@ -1,10 +1,6 @@
-import './App.css';
-import { RandomChoicePage } from './pages/RandomChoicePage/RandomChoicePage';
+// import { RandomChoicePage } from './pages/RandomChoicePage/RandomChoicePage';
+import { CharacterWishSimulatorPage } from './pages/GenshinImpact/CharacterWishSimulatorPage/CharacterWishSimulatorPage';
 
 export function App() {
-  return (
-    <div className="App">
-      <RandomChoicePage />
-    </div>
-  );
+  return <CharacterWishSimulatorPage />;
 }
